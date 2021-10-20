@@ -1,0 +1,15 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+}
+.home{
+    padding-top: 30px;
+    background: url('src/assets/img/bg-home.PNG') no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
