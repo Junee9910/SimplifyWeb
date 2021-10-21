@@ -5,11 +5,35 @@
 }
 .home{
     padding-top: 30px;
-    background: url('src/assets/img/home-bgb.jpg') no-repeat;
+    background: url('src/assets/img/home-bgl.jpg') no-repeat;
+    background-color: #F3F4F6;
     width: 100%;
     height: 1000px;
 }
-img{
+.service{
+    background: url('src/assets/img/bgg-ser.svg') no-repeat;
     width: 100%;
-    height: 100%;
+    height: 860px;
+    background-color:#F3F4F6;
+}
+.about{
+    background: url('src/assets/img/about-bg-change.svg') no-repeat;
+    width: 100%;
+    height: 850px;
+}
+.email{
+    background: url('src/assets/img/email-bg-change.svg') no-repeat;
+    width: 100%;
+    height: 850px;
+}
+.blog{
+    background-color:#F3F4F6;
+    width: 100%;
+    height: 600px;
+}
+.foot{
+    background: url('src/assets/img/footer-bgk.jpg') no-repeat;
+    width: 100%;
+    height: 750px;   
+    background-color:#F3F4F6;
 }
