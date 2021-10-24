@@ -1,14 +1,17 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
 }
 .home{
     padding-top: 30px;
     background: url('src/assets/img/home-bgl.jpg') no-repeat;
-    background-color: #F3F4F6;
     width: 100%;
-    height: 1000px;
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .service{
     background: url('src/assets/img/bgg-ser.svg') no-repeat;
