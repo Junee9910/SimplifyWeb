@@ -8,16 +8,22 @@ module.exports = {
       './src/**/*.{html,ts}',
     ]
   },
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+       margin: ['hover', 'focus'],
+  },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
       teal:colors.teal,
       white: colors.white,
       gray: colors.coolGray,
-      indigo: colors.indigo
+      indigo: colors.indigo,
+      black: colors.black
+    }, 
+    padding:{
+
     }
   },
   variants: {

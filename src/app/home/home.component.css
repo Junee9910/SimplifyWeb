@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.home{
+    padding-top: 30px;
+    background: url('src/assets/img/home-bgl.jpg') no-repeat;
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.home button{
+    padding: 10px;
+}
+.home h2{
+    width: 0px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+.home h3{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#btn-lm{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.service{
+    background: url('src/assets/img/bgg-ser.svg') no-repeat;
+    width: 100%;
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-color:#F3F4F6;
+    padding: 100px;
+}
+.ser img{
+    padding: 5px;
+}
+.about{
+    background: url('src/assets/img/about-bg-change.svg') no-repeat;
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+}
+.email{
+    background: url('src/assets/img/email-bg-change.svg') no-repeat;
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+}
+.blog{
+    background-color:#F3F4F6;
+    width: 100%;
+    height: 600px;
+}
+.foot{
+    background: url('src/assets/img/footer-bg.png') no-repeat;
+    width: 100%;
+    height: 900px;
+    background-color:#F3F4F6;
+    background-size: cover;
+    background-position: center; 
+}
