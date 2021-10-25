@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  longText='Lorem Ipsum is simply dummy text of the printing';
+
   constructor() { }
 
   ngOnInit(): void {}
