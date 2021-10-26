@@ -64,8 +64,18 @@ padding-left: 20px;
     background-size: cover;
     background-position: center;
 }
+.post-card{
+    padding: 20px;
+}
+.post-card h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .title {
     margin-bottom: 20px;
+}
+.card-up{
+    margin-bottom: 50px;
 }
 .email{
     background: url('src/assets/img/email-bg-change.svg') no-repeat;
@@ -74,10 +84,27 @@ padding-left: 20px;
     background-size: cover;
     background-position: center;
 }
+.circle{
+    margin-left: 100px;
+}
+#btn-contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .blog{
     background-color:#F3F4F6;
     width: 100%;
-    height: 600px;
+    height: 700px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.blog h1{
+    margin-right: 8px;
+}
+.blog-post{
+    padding-top: 50px;
 }
 .foot{
     background: url('src/assets/img/footer-bg.png') no-repeat;
