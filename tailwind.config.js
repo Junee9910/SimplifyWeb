@@ -11,7 +11,13 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
-       margin: ['hover', 'focus'],
+      backgroundImage: {
+        'home-bg': "url('src/assets/img/home-bgl.jpg')",
+        'about-bg': "url('src/assets/img/bgg-ser.svg')",
+        'service-bg': "url('src/assets/img/about-bg-change.svg')",
+        'email-bg': "url('src/assets/img/email-bg-change.svg')",
+        'foot-bg': "url('src/assets/img/footer-bg.png')",
+       }
   },
     colors: {
       transparent: 'transparent',

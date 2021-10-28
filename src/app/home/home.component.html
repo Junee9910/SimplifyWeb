@@ -1,4 +1,4 @@
-<div class="home">
+<div class="home w-full bg-home-bg bg-no-repeat bg-center">
   <nav class="max-w-full text-white">
     <div class="mx-auto">
       <div class="flex justify-between">
@@ -111,8 +111,8 @@
     </svg>
   </div>
 </div>
-<div class="about flex items-center">
-  <div class="card flex-1">
+<div class="about flex items-center w-full bg-about-bg bg-no-repeat bg-center">
+  <div class="card flex-1 animate__animated animate__slideInLeft">
     <div
       class="
         h-full
@@ -141,7 +141,7 @@
       />
     </div>
   </div>
-  <div class="abt flex-1">
+  <div class="abt flex-1 animate__animated animate__slideInUp">
     <img
       src="assets/img/S-wh.svg"
       class="h-14 w-14 bg-teal-600 rounded-full animate-pulse opacity-25"
@@ -155,13 +155,13 @@
     </h2>
   </div>
 </div>
-<div class="service">
+<div class="service w-full bg-service-bg bg-no-repeat bg-center">
   <div class="title flex flex-col justify-center items-center">
     <img src="assets/img/S-logo.svg" class="h-24 w-24 animate-pulse" />
     <h1 class="text-gray-500 text-2xl">What we do</h1>
     <h2 class="text-indigo-900 text-4xl">All Digital Services</h2>
   </div>
-  <div class="post-card w-full h-full">
+  <div class="post-card w-full h-full animate__animated animate__zoomIn">
     <div
       class="
         grid grid-cols-1
@@ -177,7 +177,8 @@
       ease-in-out
       transform
       hover:rotate-12
-      hover:shadow-2xl">
+      hover:shadow-2xl
+ ">
       <div
         class="
           w-full
@@ -420,9 +421,9 @@
     </div>
   </div>
 </div>
-<div class="email flex flex-row justify-center items-center">
-  <img src="assets/img/left.svg" class="circle h-52 w-52 flex-1" />
-  <div class="flex-1">
+<div class="email flex flex-row justify-center items-center w-full bg-email-bg bg-no-repeat bg-center bg-cover">
+  <img src="assets/img/left.svg" class="circle h-52 w-52 flex-1 animate__animated animate__rotateInDownLeft" />
+  <div class="flex-1 animate__animated animate__flipInX">
     <div class="h-4/5 flex flex-col justify-center items-start space-y-12">
       <h1 class="text-xl text-indigo-100 tracking-wide">Changes start here</h1>
       <h2 class="text-4xl mt-30 text-indigo-100">
@@ -449,7 +450,7 @@
       </button>
     </div>
   </div>
-  <img src="assets/img/right.svg" class="h-5/6 flex-1" />
+  <img src="assets/img/right.svg" class="h-5/6 flex-1 animate__animated animate__rotateInDownRight" />
 </div>
 <div class="blog">
   <div class="flex justify-center">
@@ -573,7 +574,7 @@
     </div>
   </div>
 </div>
-<div class="foot w-full h-full ">
+<div class="foot w-full bg-foot-bg bg-no-repeat bg-center bg-cover">
   <div class="ct h-5/6 flex flex-row justify-center">
     <div class="flex-initial w-2/3 flex flex-col text-gray-100">
       <h1 class="uppercase mb-2 text-2xl"
@@ -603,26 +604,38 @@
         </div>
       </div>
       <div class="icon-ct flex ">
-        <img src="assets/img/fa.svg" class="h-14 text-white rounded-full transition
+        <a href="#">
+          <img src="assets/img/fa.svg" class="h-14 text-white rounded-full transition
         duration-500
         ease-in-out
         transform
         hover:-translate-y-4">
-        <img src="assets/img/tt.svg" class="h-14 rounded-full transition
+        </a>
+        
+        <a href="#">
+          <img src="assets/img/tt.svg" class="h-14 rounded-full transition
         duration-500
         ease-in-out
         transform
         hover:-translate-y-4">
-        <img src="assets/img/insta.svg" class="h-14 rounded-full transition
+        </a>
+        
+        <a href="#">
+          <img src="assets/img/insta.svg" class="h-14 rounded-full transition
         duration-500
         ease-in-out
         transform
         hover:-translate-y-4">
-        <img src="assets/img/in.svg" class="h-14 rounded-full transition
-        duration-500
-        ease-in-out
-        transform
-        hover:-translate-y-4">
+        </a>
+        
+        <a href="#">
+          <img src="assets/img/in.svg" class="h-14 rounded-full transition
+          duration-500
+          ease-in-out
+          transform
+          hover:-translate-y-4">
+        </a>
+        
       </div>
     </div>
     <div class="naviga flex-1 h-full flex flex-col text-gray-100">
@@ -646,10 +659,10 @@
         >Get In Touch</h1
       >
       <div class="send-cmt ">
-        <input class="h-12 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Your Name">
-        <input class="ip-txt h-12 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="email" placeholder="Your Email Address">
-        <input class="ip-txt h-12 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="number" placeholder="Mobile">
-        <input class="ip-txt h-28 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Comments">
+        <input class="h-12 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl" id="username" type="text" placeholder="Your Name">
+        <input class="ip-txt h-12 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl" id="email" type="email" placeholder="Your Email Address">
+        <input class="ip-txt h-12 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl" id="mobile" type="number" placeholder="Mobile">
+        <input class="ip-txt h-28 border border-gray-200 bg-indigo-300 bg-opacity-25 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-xl" id="comment" type="text" placeholder="Comments">
       </div> 
       <button
         type="button"
