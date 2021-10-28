@@ -5,10 +5,7 @@
 }
 .home{
     padding-top: 30px;
-    /* background: url('src/assets/img/home-bgl.jpg') no-repeat; */
-    /* width: 100%; */
     height:850px;
-    /* background-position: center; */
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -44,12 +41,11 @@ width: 25.5ch;
     padding-left: 50px;
     padding-right: 50px;
 }
+.nav-ct {
+    margin-right: 40px;
+}
 .about{
-    /* background: url('src/assets/img/bgg-ser.svg') no-repeat;
-    width: 100%; */
     height:600px;
-    /* background-size: cover;
-    background-position: center; */
     background-color:#F3F4F6;
     padding: 200px;
 }
@@ -68,14 +64,10 @@ padding-left: 20px;
     margin-right: 100px;
 }
 .service{
-    /* background: url('src/assets/img/about-bg-change.svg') no-repeat;
-    width: 100%; */
     height: 850px;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
-    /* background-size: cover;
-    background-position: center; */
 }
 .post-card{
     padding: 20px;
@@ -91,11 +83,7 @@ padding-left: 20px;
     margin-bottom: 50px;
 }
 .email{
-    /* background: url('src/assets/img/email-bg-change.svg') no-repeat; */
-    /* width: 100%; */
     height: 850px;
-    /* background-size: cover;
-    background-position: center; */
 }
 .circle{
     margin-left: 100px;
@@ -131,12 +119,8 @@ padding-left: 20px;
     margin-top: 100px;
 }
 .foot{
-    /* background: url('src/assets/img/footer-bg.png') no-repeat; */
-    /* width: 100%; */
     height: 900px;
     background-color:#F3F4F6;
-    /* background-size: cover;
-    background-position: center;  */
     padding-top: 200px;
     padding-left: 200px;
     padding-right: 200px;
