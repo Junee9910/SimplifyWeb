@@ -7,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  longText='Lorem Ipsum is simply dummy text of the printing';
+  // btn=document.querySelector("button.mb-menu-btn");
+  // menu=document.querySelector(".mb-menu");
+  isShow:boolean=true;
 
   constructor() { }
 
   ngOnInit(): void {}
+
+  showList(){
+  this.isShow=!this.isShow;
+  console.log(this.isShow);
+  }
   
 }

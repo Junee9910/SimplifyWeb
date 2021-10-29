@@ -1,17 +1,19 @@
 <div class="home h-full bg-home-bg bg-no-repeat bg-center bg-cover bg-fixed">
-  <nav class="nav max-w-full text-white mx-auto flex justify-between">
-        <div class="logo w-1/6 items-center stroke">
-          <a href="#" class="flex items-center">
-            <img src="assets/img/bigger_i.svg" />
-          </a>
-        </div>
-        <div class="nav-links flex justify-center items-center text-2xl">
-          <!-- <ul class="space-x-16">
-            <li class="inline-block hover:text-gray-300"><a href="#">Home</a></li>
-            <li class="inline-block hover:text-gray-300"><a href="#">About</a></li>
-            <li class="inline-block hover:text-gray-300"><a href="#">Services</a></li>
-            <li class="inline-block hover:text-gray-300"><a href="#">Blog</a></li>
-          </ul> -->
+  <nav>
+    <div class="nav max-w-full text-white mx-auto flex justify-between" >
+      <div class="logo w-48 items-center stroke">
+        <a href="#" class="flex items-center">
+          <img src="assets/img/bigger_i.svg" />
+        </a>
+      </div>
+      <div class="nav-links flex justify-center items-center text-2xl">
+        <!-- <ul class="space-x-16">
+          <li class="inline-block hover:text-gray-300"><a href="#">Home</a></li>
+          <li class="inline-block hover:text-gray-300"><a href="#">About</a></li>
+          <li class="inline-block hover:text-gray-300"><a href="#">Services</a></li>
+          <li class="inline-block hover:text-gray-300"><a href="#">Blog</a></li>
+        </ul> -->
+        <div class="hidden md:flex">
           <div class="nav-ct flex space-x-16">
             <div class=" hover:text-gray-300"><a href="#">Home</a></div>
             <div class=" hover:text-gray-300"><a href="#">About</a></div>
@@ -42,6 +44,27 @@
           >
             Contact with Us
           </button>
+        </div>
+        
+    </div>
+        
+          <div class="md:hidden flex items-center">
+            <button class="mb-menu-btn" *ngIf="isShow" (click)="showList()">
+              <svg class="w-8 h-18" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+            <button class="mb-menu-btn" *ngIf="!isShow" (click)="showList()">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </button>
+            
+          </div>
+        </div>
+        <div *ngIf="!isShow" class="mb-menu flex flex-col md:hidden bg-gray-800 bg-opacity-75">
+          <a href="#" class="active:bg-gray-200 block py-4 px-4 text-2xl text-white hover:bg-gray-200 hover:text-indigo-900  transform duration-500 ease-linear">Home</a>
+          <a href="#" class="block py-4 px-4 text-2xl text-white hover:bg-gray-200 hover:text-indigo-900  transform duration-500 ease-linear">About</a>
+          <a href="#" class="block py-4 px-4 text-2xl text-white hover:bg-gray-200 hover:text-indigo-900  transform duration-500 ease-linear" >Services</a>
+          <a href="#" class="block py-4 px-4 text-2xl text-white hover:bg-gray-200 hover:text-indigo-900  transform duration-500 ease-linear">Blog</a>
         </div>
   </nav>
   <div class="h-4/5 flex flex-col justify-center items-start">

@@ -44,6 +44,10 @@ width: 25.5ch;
 .nav-ct {
     margin-right: 40px;
 }
+.mb-menu a{
+    padding: 10px;
+    margin-top: 10px;
+}
 .about{
     height:600px;
     background-color:#F3F4F6;
